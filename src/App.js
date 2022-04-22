@@ -1,5 +1,4 @@
 
-import react from "react";
 import './App.css';
 import Cards from "./components/Cards";
 import Navbar from "./components/Navbar";
