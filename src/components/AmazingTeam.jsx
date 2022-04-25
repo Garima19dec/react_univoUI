@@ -1,4 +1,8 @@
 import React from 'react';
+import img1 from "../images/2fblg_lucknow.png";
+import img2 from "../images/s10.png";
+import img3 from "../images/Group 51.png";
+import img4 from "../images/Group 65.png";
 
 const AmazingTeam = () => {
     return (
@@ -23,7 +27,7 @@ const AmazingTeam = () => {
                     src="https://picsum.photos/203"
                     alt=""
                   />
-                  <h4>Kay Garland</h4>
+                  <h4>Robert Winslet</h4>
                   <p className="text-muted">Lead Designer</p>
                   <ul className="list-inline social-buttons">
                     <li className="list-inline-item">
@@ -51,7 +55,7 @@ const AmazingTeam = () => {
                     src="https://picsum.photos/204"
                     alt=""
                   />
-                  <h4>Larry Parker</h4>
+                  <h4>Kiah Desai</h4>
                   <p className="text-muted">Lead Marketer</p>
                   <ul className="list-inline social-buttons">
                     <li className="list-inline-item">
@@ -79,7 +83,7 @@ const AmazingTeam = () => {
                     src="https://picsum.photos/205"
                     alt=""
                   />
-                  <h4>Diana Pertersen</h4>
+                  <h4>Mayan Lekh</h4>
                   <p className="text-muted">Lead Developer</p>
                   <ul className="list-inline social-buttons">
                     <li className="list-inline-item">
@@ -121,7 +125,8 @@ const AmazingTeam = () => {
                   <h3 className=" text-black">Our First Partner</h3>
                   <img
                     className="img-fluid d-block mx-auto"
-                    src="https://picsum.photos/206"
+                    src={img1}
+                    // src="https://picsum.photos/206"
                     alt=""
                   />
 
@@ -142,7 +147,8 @@ const AmazingTeam = () => {
                   <h3 className=" text-warning">Today</h3>
                   <img
                     className="img-fluid d-block mx-auto"
-                    src="https://picsum.photos/207"
+                    // src="https://picsum.photos/207"
+                    src={img2}
                     alt=""
                   />
                   <p className=" text-primary">
@@ -162,7 +168,8 @@ const AmazingTeam = () => {
                   <h3 className=" text-black">The Future</h3>
                   <img
                     className="img-fluid d-block mx-auto"
-                    src="https://picsum.photos/208"
+                    // src="https://picsum.photos/208"
+                    src={img1}
                     alt=""
                   />
                   <p className=" text-secondary">
@@ -182,7 +189,8 @@ const AmazingTeam = () => {
                   <h3 className=" text-warning">University</h3>
                   <img
                     className="img-fluid d-block mx-auto"
-                    src="https://picsum.photos/209"
+                    // src="https://picsum.photos/209"
+                    src={img2}
                     alt=""
                   />
                   <p className=" text-primary">

@@ -1,8 +1,11 @@
 import React from 'react';
+import image from "../images/univo_cover-03.png";
 
 const FirstData = () => {
-    return (
-      <div className="container">
+  return (
+    //  d-flex justify-content-end
+    <div className="container">
+      <div className=" row-cols-5 d-flex justify-content-end">
         <div className="card-body my-5 py-lg-3 w-50 text-lg-center">
           <h5 className="card-title text-primary fw-bold fs-1">
             Powering World Class
@@ -31,47 +34,52 @@ const FirstData = () => {
           >
             Download Brochure
           </a>
-          {/* <span>
-            <img
-              src="https://picsum.photos/210"
-              class="rounded float-end"
-              alt="univo_cover"
-            ></img>
-          </span> */}
         </div>
-
-        <header className="masthead">
-          <div className="container">
-            <div className="intro-text">
-              <div className="intro-lead-in fw-bold">Our Story..!</div>
-              <div className="intro-heading">
-                <p className=' fs-6 fw-light fst-italic'>
-                  It began with the idea to democratize education from the best
-                  universities of India and the World to reach learners from all
-                  backgrounds powered by robust technology platforms and support
-                  services. India is a powerhouse of talent, waiting to be
-                  unleashed and on its way to become a global knowledge driven
-                  economy. Online education is the only medium which can support
-                  and power this dream by reaching unreachable learners and
-                  equipping them with the right skillsets to fulfil aspirations
-                  and ambitions. And so, a group of visionary educators decided
-                  to take this mission of educating a billion minds and
-                  transcend boundaries and barriers with online education to
-                  fulfil the dreams of young India. With this passion, vision
-                  and dream, Univo was born.
-                </p>
-              </div>
-              <a
-                className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="#"
-              >
-                Want To Know More
-              </a>
-            </div>
-          </div>
-        </header>
+        <div className="col-auto">
+          <img
+            src={image}
+            // src="https://picsum.photos/210"
+            class="rounded float-end img-fluid p-4"
+            alt="univo_cover"
+            style={{
+               width: 550,
+            }}
+          ></img>
+        </div>
       </div>
-    );
+
+      <header className="masthead">
+        <div className="container">
+          <div className="intro-text">
+            <div className="intro-lead-in fw-bold">Our Story..!</div>
+            <div className="intro-heading">
+              <p className=" fs-6 fw-light fst-italic">
+                It began with the idea to democratize education from the best
+                universities of India and the World to reach learners from all
+                backgrounds powered by robust technology platforms and support
+                services. India is a powerhouse of talent, waiting to be
+                unleashed and on its way to become a global knowledge driven
+                economy. Online education is the only medium which can support
+                and power this dream by reaching unreachable learners and
+                equipping them with the right skillsets to fulfil aspirations
+                and ambitions. And so, a group of visionary educators decided to
+                take this mission of educating a billion minds and transcend
+                boundaries and barriers with online education to fulfil the
+                dreams of young India. With this passion, vision and dream,
+                Univo was born.
+              </p>
+            </div>
+            <a
+              className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+              href="#"
+            >
+              Want To Know More
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
+  );
 };
 
 export default FirstData;
